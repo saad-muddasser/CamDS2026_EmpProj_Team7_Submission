@@ -1,0 +1,44 @@
+{
+  "targets": {
+    "JPM": "JPMorgan Chase & Co.",
+    "BAC": "Bank of America Corporation",
+    "C": "Citigroup Inc."
+  },
+  "benchmarks": {
+    "KBE": "SPDR S&P Bank ETF",
+    "XLF": "Financial Select Sector SPDR Fund"
+  },
+  "peers": {
+    "WFC": "Wells Fargo",
+    "GS": "Goldman Sachs",
+    "MS": "Morgan Stanley",
+    "USB": "U.S. Bancorp",
+    "PNC": "PNC Financial",
+    "TFC": "Truist Financial",
+    "COF": "Capital One",
+    "BK": "BNY Mellon",
+    "STT": "State Street",
+    "SCHW": "Charles Schwab",
+    "FITB": "Fifth Third Bancorp",
+    "RF": "Regions Financial"
+  },
+  "all_requested": [
+    "JPM",
+    "BAC",
+    "C",
+    "KBE",
+    "XLF",
+    "WFC",
+    "GS",
+    "MS",
+    "USB",
+    "PNC",
+    "TFC",
+    "COF",
+    "BK",
+    "STT",
+    "SCHW",
+    "FITB",
+    "RF"
+  ]
+}

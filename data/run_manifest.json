@@ -1,0 +1,299 @@
+{
+  "schema_version": "1.0",
+  "run_timestamp_utc": "2026-09-16T12:28:41.725272Z",
+  "source": {
+    "name": "Yahoo Finance",
+    "library": "yfinance",
+    "library_version": "1.7.0",
+    "library_path": "C:\\Users\\gulna\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\site-packages\\yfinance\\__init__.py",
+    "interval": "1d",
+    "adjustment": "auto_adjust=True (split and dividend adjusted)"
+  },
+  "parameters": {
+    "start": "2021-01-01",
+    "end": "today",
+    "tickers_requested": [
+      "JPM",
+      "BAC",
+      "C",
+      "KBE",
+      "XLF",
+      "WFC",
+      "GS",
+      "MS",
+      "USB",
+      "PNC",
+      "TFC",
+      "COF",
+      "BK",
+      "STT",
+      "SCHW",
+      "FITB",
+      "RF"
+    ],
+    "targets": {
+      "JPM": "JPMorgan Chase & Co.",
+      "BAC": "Bank of America Corporation",
+      "C": "Citigroup Inc."
+    },
+    "benchmarks": {
+      "KBE": "SPDR S&P Bank ETF",
+      "XLF": "Financial Select Sector SPDR Fund"
+    },
+    "benchmark_used": "KBE",
+    "peer_group_included": true,
+    "peer_group": {
+      "WFC": "Wells Fargo",
+      "GS": "Goldman Sachs",
+      "MS": "Morgan Stanley",
+      "USB": "U.S. Bancorp",
+      "PNC": "PNC Financial",
+      "TFC": "Truist Financial",
+      "COF": "Capital One",
+      "BK": "BNY Mellon",
+      "STT": "State Street",
+      "SCHW": "Charles Schwab",
+      "FITB": "Fifth Third Bancorp",
+      "RF": "Regions Financial"
+    },
+    "vol_window_days": 21,
+    "vol_window_long_days": 63,
+    "trading_days_per_year": 252
+  },
+  "statistics": {
+    "tickers_downloaded": 16,
+    "trading_days": 1431,
+    "total_rows": 22896,
+    "date_range": [
+      "2021-01-04",
+      "2026-09-15"
+    ],
+    "rows_with_idio_vol": 20850
+  },
+  "data_quality": {
+    "BAC": {
+      "n_rows": 1431,
+      "date_range": [
+        "2021-01-04",
+        "2026-09-15"
+      ],
+      "zero_volume_days": 0,
+      "stale_prices": 10,
+      "extreme_returns_over_20pct": 0,
+      "max_abs_daily_return": 0.1172,
+      "calendar_gaps_over_5d": 0,
+      "missing_close": 0
+    },
+    "C": {
+      "n_rows": 1431,
+      "date_range": [
+        "2021-01-04",
+        "2026-09-15"
+      ],
+      "zero_volume_days": 0,
+      "stale_prices": 7,
+      "extreme_returns_over_20pct": 0,
+      "max_abs_daily_return": 0.1294,
+      "calendar_gaps_over_5d": 0,
+      "missing_close": 0
+    },
+    "COF": {
+      "n_rows": 1431,
+      "date_range": [
+        "2021-01-04",
+        "2026-09-15"
+      ],
+      "zero_volume_days": 0,
+      "stale_prices": 5,
+      "extreme_returns_over_20pct": 0,
+      "max_abs_daily_return": 0.1398,
+      "calendar_gaps_over_5d": 0,
+      "missing_close": 0
+    },
+    "FITB": {
+      "n_rows": 1431,
+      "date_range": [
+        "2021-01-04",
+        "2026-09-15"
+      ],
+      "zero_volume_days": 0,
+      "stale_prices": 8,
+      "extreme_returns_over_20pct": 0,
+      "max_abs_daily_return": 0.1458,
+      "calendar_gaps_over_5d": 0,
+      "missing_close": 0
+    },
+    "GS": {
+      "n_rows": 1431,
+      "date_range": [
+        "2021-01-04",
+        "2026-09-15"
+      ],
+      "zero_volume_days": 0,
+      "stale_prices": 0,
+      "extreme_returns_over_20pct": 0,
+      "max_abs_daily_return": 0.1231,
+      "calendar_gaps_over_5d": 0,
+      "missing_close": 0
+    },
+    "JPM": {
+      "n_rows": 1431,
+      "date_range": [
+        "2021-01-04",
+        "2026-09-15"
+      ],
+      "zero_volume_days": 0,
+      "stale_prices": 1,
+      "extreme_returns_over_20pct": 0,
+      "max_abs_daily_return": 0.1093,
+      "calendar_gaps_over_5d": 0,
+      "missing_close": 0
+    },
+    "KBE": {
+      "n_rows": 1431,
+      "date_range": [
+        "2021-01-04",
+        "2026-09-15"
+      ],
+      "zero_volume_days": 0,
+      "stale_prices": 14,
+      "extreme_returns_over_20pct": 0,
+      "max_abs_daily_return": 0.1127,
+      "calendar_gaps_over_5d": 0,
+      "missing_close": 0
+    },
+    "MS": {
+      "n_rows": 1431,
+      "date_range": [
+        "2021-01-04",
+        "2026-09-15"
+      ],
+      "zero_volume_days": 0,
+      "stale_prices": 3,
+      "extreme_returns_over_20pct": 0,
+      "max_abs_daily_return": 0.1099,
+      "calendar_gaps_over_5d": 0,
+      "missing_close": 0
+    },
+    "PNC": {
+      "n_rows": 1431,
+      "date_range": [
+        "2021-01-04",
+        "2026-09-15"
+      ],
+      "zero_volume_days": 0,
+      "stale_prices": 2,
+      "extreme_returns_over_20pct": 0,
+      "max_abs_daily_return": 0.093,
+      "calendar_gaps_over_5d": 0,
+      "missing_close": 0
+    },
+    "RF": {
+      "n_rows": 1431,
+      "date_range": [
+        "2021-01-04",
+        "2026-09-15"
+      ],
+      "zero_volume_days": 0,
+      "stale_prices": 23,
+      "extreme_returns_over_20pct": 0,
+      "max_abs_daily_return": 0.1321,
+      "calendar_gaps_over_5d": 0,
+      "missing_close": 0
+    },
+    "SCHW": {
+      "n_rows": 1431,
+      "date_range": [
+        "2021-01-04",
+        "2026-09-15"
+      ],
+      "zero_volume_days": 0,
+      "stale_prices": 5,
+      "extreme_returns_over_20pct": 0,
+      "max_abs_daily_return": 0.1366,
+      "calendar_gaps_over_5d": 0,
+      "missing_close": 0
+    },
+    "STT": {
+      "n_rows": 1431,
+      "date_range": [
+        "2021-01-04",
+        "2026-09-15"
+      ],
+      "zero_volume_days": 0,
+      "stale_prices": 3,
+      "extreme_returns_over_20pct": 0,
+      "max_abs_daily_return": 0.1288,
+      "calendar_gaps_over_5d": 0,
+      "missing_close": 0
+    },
+    "TFC": {
+      "n_rows": 1431,
+      "date_range": [
+        "2021-01-04",
+        "2026-09-15"
+      ],
+      "zero_volume_days": 0,
+      "stale_prices": 9,
+      "extreme_returns_over_20pct": 0,
+      "max_abs_daily_return": 0.1862,
+      "calendar_gaps_over_5d": 0,
+      "missing_close": 0
+    },
+    "USB": {
+      "n_rows": 1431,
+      "date_range": [
+        "2021-01-04",
+        "2026-09-15"
+      ],
+      "zero_volume_days": 0,
+      "stale_prices": 9,
+      "extreme_returns_over_20pct": 0,
+      "max_abs_daily_return": 0.1059,
+      "calendar_gaps_over_5d": 0,
+      "missing_close": 0
+    },
+    "WFC": {
+      "n_rows": 1431,
+      "date_range": [
+        "2021-01-04",
+        "2026-09-15"
+      ],
+      "zero_volume_days": 0,
+      "stale_prices": 7,
+      "extreme_returns_over_20pct": 0,
+      "max_abs_daily_return": 0.1232,
+      "calendar_gaps_over_5d": 0,
+      "missing_close": 0
+    },
+    "XLF": {
+      "n_rows": 1431,
+      "date_range": [
+        "2021-01-04",
+        "2026-09-15"
+      ],
+      "zero_volume_days": 0,
+      "stale_prices": 13,
+      "extreme_returns_over_20pct": 0,
+      "max_abs_daily_return": 0.076,
+      "calendar_gaps_over_5d": 0,
+      "missing_close": 0
+    }
+  },
+  "methodology_notes": [
+    "auto_adjust=True: on raw prices a stock split appears as a -50% daily return and would dominate any anomaly detection.",
+    "All rolling windows are TRAILING. No centred windows, no full-sample statistics. Every value was computable on its date.",
+    "Log returns, so multi-day returns aggregate additively.",
+    "idio_vol removes sector movement via a rolling beta on KBE. This is the bank-specific risk measure and the one to use for anomaly detection.",
+    "Rolling rather than fixed beta: bank betas rise during stress, and a fixed beta would use future data and mis-state residuals precisely when it matters most.",
+    "peer_pctile is cross-sectional per date, so a sector-wide rise leaves rankings unchanged.",
+    "Residual variance has no degrees-of-freedom correction for the estimated beta: a small constant downward bias in the level that does not affect relative anomaly detection.",
+    "Yahoo revises historical data. 01_raw is the snapshot as downloaded at the run timestamp above; re-downloading may not reproduce it exactly."
+  ],
+  "known_limitations": [
+    "Yahoo Finance is not an official exchange feed; minor discrepancies against vendor data are expected.",
+    "Delistings and ticker changes are not handled \u2014 the peer group is assumed stable across the sample.",
+    "No survivorship-bias correction: peers are chosen from banks that exist today.",
+    "Corporate actions other than splits and dividends (spin-offs, mergers) are not adjusted for."
+  ]
+}

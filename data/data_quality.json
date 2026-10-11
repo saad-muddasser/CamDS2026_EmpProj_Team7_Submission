@@ -1,0 +1,210 @@
+{
+  "BAC": {
+    "n_rows": 1431,
+    "date_range": [
+      "2021-01-04",
+      "2026-09-15"
+    ],
+    "zero_volume_days": 0,
+    "stale_prices": 10,
+    "extreme_returns_over_20pct": 0,
+    "max_abs_daily_return": 0.1172,
+    "calendar_gaps_over_5d": 0,
+    "missing_close": 0
+  },
+  "C": {
+    "n_rows": 1431,
+    "date_range": [
+      "2021-01-04",
+      "2026-09-15"
+    ],
+    "zero_volume_days": 0,
+    "stale_prices": 7,
+    "extreme_returns_over_20pct": 0,
+    "max_abs_daily_return": 0.1294,
+    "calendar_gaps_over_5d": 0,
+    "missing_close": 0
+  },
+  "COF": {
+    "n_rows": 1431,
+    "date_range": [
+      "2021-01-04",
+      "2026-09-15"
+    ],
+    "zero_volume_days": 0,
+    "stale_prices": 5,
+    "extreme_returns_over_20pct": 0,
+    "max_abs_daily_return": 0.1398,
+    "calendar_gaps_over_5d": 0,
+    "missing_close": 0
+  },
+  "FITB": {
+    "n_rows": 1431,
+    "date_range": [
+      "2021-01-04",
+      "2026-09-15"
+    ],
+    "zero_volume_days": 0,
+    "stale_prices": 8,
+    "extreme_returns_over_20pct": 0,
+    "max_abs_daily_return": 0.1458,
+    "calendar_gaps_over_5d": 0,
+    "missing_close": 0
+  },
+  "GS": {
+    "n_rows": 1431,
+    "date_range": [
+      "2021-01-04",
+      "2026-09-15"
+    ],
+    "zero_volume_days": 0,
+    "stale_prices": 0,
+    "extreme_returns_over_20pct": 0,
+    "max_abs_daily_return": 0.1231,
+    "calendar_gaps_over_5d": 0,
+    "missing_close": 0
+  },
+  "JPM": {
+    "n_rows": 1431,
+    "date_range": [
+      "2021-01-04",
+      "2026-09-15"
+    ],
+    "zero_volume_days": 0,
+    "stale_prices": 1,
+    "extreme_returns_over_20pct": 0,
+    "max_abs_daily_return": 0.1093,
+    "calendar_gaps_over_5d": 0,
+    "missing_close": 0
+  },
+  "KBE": {
+    "n_rows": 1431,
+    "date_range": [
+      "2021-01-04",
+      "2026-09-15"
+    ],
+    "zero_volume_days": 0,
+    "stale_prices": 14,
+    "extreme_returns_over_20pct": 0,
+    "max_abs_daily_return": 0.1127,
+    "calendar_gaps_over_5d": 0,
+    "missing_close": 0
+  },
+  "MS": {
+    "n_rows": 1431,
+    "date_range": [
+      "2021-01-04",
+      "2026-09-15"
+    ],
+    "zero_volume_days": 0,
+    "stale_prices": 3,
+    "extreme_returns_over_20pct": 0,
+    "max_abs_daily_return": 0.1099,
+    "calendar_gaps_over_5d": 0,
+    "missing_close": 0
+  },
+  "PNC": {
+    "n_rows": 1431,
+    "date_range": [
+      "2021-01-04",
+      "2026-09-15"
+    ],
+    "zero_volume_days": 0,
+    "stale_prices": 2,
+    "extreme_returns_over_20pct": 0,
+    "max_abs_daily_return": 0.093,
+    "calendar_gaps_over_5d": 0,
+    "missing_close": 0
+  },
+  "RF": {
+    "n_rows": 1431,
+    "date_range": [
+      "2021-01-04",
+      "2026-09-15"
+    ],
+    "zero_volume_days": 0,
+    "stale_prices": 23,
+    "extreme_returns_over_20pct": 0,
+    "max_abs_daily_return": 0.1321,
+    "calendar_gaps_over_5d": 0,
+    "missing_close": 0
+  },
+  "SCHW": {
+    "n_rows": 1431,
+    "date_range": [
+      "2021-01-04",
+      "2026-09-15"
+    ],
+    "zero_volume_days": 0,
+    "stale_prices": 5,
+    "extreme_returns_over_20pct": 0,
+    "max_abs_daily_return": 0.1366,
+    "calendar_gaps_over_5d": 0,
+    "missing_close": 0
+  },
+  "STT": {
+    "n_rows": 1431,
+    "date_range": [
+      "2021-01-04",
+      "2026-09-15"
+    ],
+    "zero_volume_days": 0,
+    "stale_prices": 3,
+    "extreme_returns_over_20pct": 0,
+    "max_abs_daily_return": 0.1288,
+    "calendar_gaps_over_5d": 0,
+    "missing_close": 0
+  },
+  "TFC": {
+    "n_rows": 1431,
+    "date_range": [
+      "2021-01-04",
+      "2026-09-15"
+    ],
+    "zero_volume_days": 0,
+    "stale_prices": 9,
+    "extreme_returns_over_20pct": 0,
+    "max_abs_daily_return": 0.1862,
+    "calendar_gaps_over_5d": 0,
+    "missing_close": 0
+  },
+  "USB": {
+    "n_rows": 1431,
+    "date_range": [
+      "2021-01-04",
+      "2026-09-15"
+    ],
+    "zero_volume_days": 0,
+    "stale_prices": 9,
+    "extreme_returns_over_20pct": 0,
+    "max_abs_daily_return": 0.1059,
+    "calendar_gaps_over_5d": 0,
+    "missing_close": 0
+  },
+  "WFC": {
+    "n_rows": 1431,
+    "date_range": [
+      "2021-01-04",
+      "2026-09-15"
+    ],
+    "zero_volume_days": 0,
+    "stale_prices": 7,
+    "extreme_returns_over_20pct": 0,
+    "max_abs_daily_return": 0.1232,
+    "calendar_gaps_over_5d": 0,
+    "missing_close": 0
+  },
+  "XLF": {
+    "n_rows": 1431,
+    "date_range": [
+      "2021-01-04",
+      "2026-09-15"
+    ],
+    "zero_volume_days": 0,
+    "stale_prices": 13,
+    "extreme_returns_over_20pct": 0,
+    "max_abs_daily_return": 0.076,
+    "calendar_gaps_over_5d": 0,
+    "missing_close": 0
+  }
+}
